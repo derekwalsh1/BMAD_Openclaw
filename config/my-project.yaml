@@ -1,0 +1,19 @@
+project:
+  name: "My App"
+  description: "My application built with BMAD OpenClaw"
+
+paths:
+  root: "/Users/derek/Workspace/openclaw_test"
+  planning: "/Users/derek/Workspace/openclaw_test/_bmad-output/planning-artifacts"
+  implementation: "/Users/derek/Workspace/openclaw_test/_bmad-output/implementation-artifacts"
+
+stack:
+  frontend: "Next.js, Tailwind, ShadCN"
+  backend: "Supabase"
+  language: "TypeScript"
+
+constraints:
+  max_stories_per_sprint: 5
+  require_code_review: true
+  require_ux_review: false
+  require_qa: false
